@@ -1,5 +1,6 @@
 import './App.css';
 import { MuiButton } from './components/MuiButton';
+import { MuiButtonGroup } from './components/MuiButtonGroup';
 import { MuiTypography } from './components/MuiTypography';
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
       <MuiTypography/>
       ===================================================================================================
       <MuiButton/>
+      ===================================================================================================
+      <MuiButtonGroup/>
     </div>
   );
 }
