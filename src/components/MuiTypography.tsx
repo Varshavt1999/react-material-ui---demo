@@ -3,7 +3,7 @@ import React from 'react'
 
 export const MuiTypography = () => {
   return (
-    <div>
+    <div style={{padding : "30px"}}>
         <Typography variant='h4' component="h1" gutterBottom>Typography</Typography>
         //-----------------------------------------------------------------------//
         <Typography variant='h1' >Heading 1</Typography>
