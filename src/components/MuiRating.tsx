@@ -13,7 +13,7 @@ export const MuiRating = () => {
     }
   return (
     <div style={{padding : "30px"}}>
-    <Typography variant='h4' component="h1" gutterBottom >Select</Typography >
+    <Typography variant='h4' component="h1" gutterBottom >Rating</Typography >
     //-----------------------------------------------------------------------//
     <Stack spacing={2}>
         {/* size prop : can be small medium large . and the default value is medium */}
