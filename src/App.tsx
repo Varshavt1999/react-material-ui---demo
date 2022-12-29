@@ -5,6 +5,7 @@ import { MuiButton } from './components/MuiButton';
 import { MuiButtonGroup } from './components/MuiButtonGroup';
 import { MuiCheckBox } from './components/MuiCheckBox';
 import { MuiGrid } from './components/MuiGrid';
+import { MuiPaper } from './components/MuiPaper';
 import { MuiRadioButton } from './components/MuiRadioButton';
 import { MuiRating } from './components/MuiRating';
 import { MuiSelect } from './components/MuiSelect';
@@ -47,6 +48,8 @@ function App() {
       <MuiStack />
       ===================================================================================================
       <MuiGrid />
+      ===================================================================================================
+      <MuiPaper />
     </div>
   );
 }
