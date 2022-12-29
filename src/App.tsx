@@ -3,6 +3,7 @@ import { MuiAutocomplete } from './components/MuiAutocomplete';
 import { MuiBox } from './components/MuiBox';
 import { MuiButton } from './components/MuiButton';
 import { MuiButtonGroup } from './components/MuiButtonGroup';
+import { MuiCard } from './components/MuiCard';
 import { MuiCheckBox } from './components/MuiCheckBox';
 import { MuiGrid } from './components/MuiGrid';
 import { MuiPaper } from './components/MuiPaper';
@@ -50,6 +51,8 @@ function App() {
       <MuiGrid />
       ===================================================================================================
       <MuiPaper />
+      ===================================================================================================
+      <MuiCard />
     </div>
   );
 }
