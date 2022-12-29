@@ -17,7 +17,7 @@ export const MuiRadioButton = () => {
     <div style={{padding : "30px"}}>
       <Typography variant='h4' component="h1" gutterBottom >Radio Button</Typography >
       //-----------------------------------------------------------------------//
-      <Box>
+      <Box style={{marginTop : "30px"}}>
         {/* error prop : you can add error prop on the form control component */}
         <FormControl error={!value} >
           <FormLabel id="job-experience-group-label">Years of Experience</FormLabel>

@@ -1,6 +1,5 @@
 //select component is used for collecting information from a list of options
 import {Stack,Box,TextField,MenuItem ,Typography} from "@mui/material"
-import { log } from "console"
 import {useState} from "react"
 export const MuiSelect = () => {
   const [country, setCountry] = useState("")
