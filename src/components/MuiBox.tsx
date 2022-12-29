@@ -18,19 +18,20 @@ export const MuiBox = () => {
             </Box>
             {/* if you were to use regular inline style on regular html tags you cannot acces the theme */}
             <Box  sx={{
-            backgroundColor : "primary.main" ,
-             color : "white" , height : "100px" , width : "100px" , 
-             padding : "16px",
-             //style when you hover over the element . this again is an object
-             "&:hover" : {
-                backgroundColor : "primary.light"
-             }
+                backgroundColor : "primary.main" ,
+                color : "white" , height : "100px" , width : "100px" , 
+                padding : "16px",
+                //style when you hover over the element . this again is an object
+                "&:hover" : {
+                    backgroundColor : "primary.light"
+                }
              }}>varsha</Box>
             {/* you can use a lot of css property that material ui support as a prop directly on the component */}
             {/* Mui sysytem property also has a shorter name for few property */}
-            <Box display="flex" height="100px" width="100px"
-             bgcolor="success.light" // background color
-             p={2} //padding . default is multyplied by 8 px
+            <Box 
+                display="flex" height="100px" width="100px"
+                bgcolor="success.light" // background color
+                p={2} //padding . default is multyplied by 8 px
              >
                 welcome!!!
             </Box>

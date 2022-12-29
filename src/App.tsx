@@ -7,6 +7,7 @@ import { MuiCheckBox } from './components/MuiCheckBox';
 import { MuiRadioButton } from './components/MuiRadioButton';
 import { MuiRating } from './components/MuiRating';
 import { MuiSelect } from './components/MuiSelect';
+import { MuiStack } from './components/MuiStack';
 import { MuiSwitch } from './components/MuiSwitch';
 import { MuiTextField } from './components/MuiTextField';
 import { MuiToggleButton } from './components/MuiToggleButton';
@@ -41,6 +42,8 @@ function App() {
       <MuiAutocomplete />
       ===================================================================================================
       <MuiBox />
+      ===================================================================================================
+      <MuiStack />
     </div>
   );
 }

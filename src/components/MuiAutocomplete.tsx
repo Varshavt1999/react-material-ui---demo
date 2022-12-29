@@ -47,9 +47,7 @@ export const MuiAutocomplete = () => {
                 onChange={(event: any , newValue : skill | null) =>setSelectedSkills(newValue) }
               
                 />
-            </Stack>
-           
-           
+            </Stack>       
         </div>
     )
 }
