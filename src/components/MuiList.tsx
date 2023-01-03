@@ -22,12 +22,12 @@ export const MuiList = () => {
                 </ListItem>
               
                 <ListItem>
-                    <ListItemAvatar>
+                    <ListItemIcon>
                         <EmailOutlinedIcon />
-                    </ListItemAvatar>
+                    </ListItemIcon>
                     <ListItemText primary="list item 2"></ListItemText>
                 </ListItem>
-                <Divider/>
+           
                 <ListItem>
                     <ListItemIcon>
                         <EmailOutlinedIcon />
