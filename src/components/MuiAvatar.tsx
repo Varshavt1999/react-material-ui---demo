@@ -5,7 +5,7 @@ export const MuiAvatar = () => {
     <div style={{padding : "30px"}}>
         <Typography variant='h4' component="h1" gutterBottom>Avatar</Typography>
         //-----------------------------------------------------------------------//
-        <Stack spacing={6} direction="row" >
+        <Stack spacing={6} direction="row" sx={{marginTop : "30px"}} >
             <Stack direction="row" spacing={1}>
                 <Avatar sx={{bgcolor : "primary.light"}}>BW</Avatar>
                 <Avatar sx={{bgcolor : "success.light"}}>CK</Avatar>

@@ -8,7 +8,7 @@ export const MuiBottomNavigation = () => {
   const [selected, setSelected] = useState(null)
   return (
     <div style={{padding : "30px"}}>
-        <Typography variant='h4' component="h1" gutterBottom>Link</Typography>
+        <Typography variant='h4' component="h1" gutterBottom>Bottom Navigation</Typography>
         //-----------------------------------------------------------------------//
         <Box sx={{width:"50%" , height:"300px", margin:" 0 auto" , position: "relative" , background : "rgba(0,0,0,0.5)" , border : "1px solid green"}}>
           <BottomNavigation sx={{width : "100%" ,position: "absolute" ,bottom : 0 }} value={selected} onChange={(event , newvalue) => setSelected(newvalue)}>
