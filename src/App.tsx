@@ -2,6 +2,7 @@ import './App.css';
 import { MuiAccordion } from './components/MuiAccordion';
 import { MuiAutocomplete } from './components/MuiAutocomplete';
 import { MuiBox } from './components/MuiBox';
+import { MuiBreadCrumbs } from './components/MuiBreadCrumbs';
 import { MuiButton } from './components/MuiButton';
 import { MuiButtonGroup } from './components/MuiButtonGroup';
 import { MuiCard } from './components/MuiCard';
@@ -68,6 +69,8 @@ function App() {
       <MuiMenu/>
       ===================================================================================================
       <MuiLink />
+      ===================================================================================================
+      <MuiBreadCrumbs/>
     </div>
   );
 }
