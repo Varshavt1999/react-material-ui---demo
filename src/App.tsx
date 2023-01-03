@@ -14,6 +14,7 @@ import { MuiDrawer } from './components/MuiDrawer';
 import { MuiGrid } from './components/MuiGrid';
 import { MuiImageList } from './components/MuiImageList';
 import { MuiLink } from './components/MuiLink';
+import { MuiList } from './components/MuiList';
 import { MuiMenu } from './components/MuiMenu';
 import { MuiNavBar } from './components/MuiNavBar';
 import { MuiPaper } from './components/MuiPaper';
@@ -86,6 +87,8 @@ function App() {
       <MuiAvatar />
       ===================================================================================================
       <MuiBadge />
+      ===================================================================================================
+      <MuiList />
     </div>
   );
 }
