@@ -17,6 +17,7 @@ import { MuiPaper } from './components/MuiPaper';
 import { MuiRadioButton } from './components/MuiRadioButton';
 import { MuiRating } from './components/MuiRating';
 import { MuiSelect } from './components/MuiSelect';
+import { MuiSpeedDial } from './components/MuiSpeedDial';
 import { MuiStack } from './components/MuiStack';
 import { MuiSwitch } from './components/MuiSwitch';
 import { MuiTextField } from './components/MuiTextField';
@@ -74,6 +75,8 @@ function App() {
       <MuiBreadCrumbs/>
       ===================================================================================================
       <MuiDrawer />
+      ===================================================================================================
+      <MuiSpeedDial />
     </div>
   );
 }
