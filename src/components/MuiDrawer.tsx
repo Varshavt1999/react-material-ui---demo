@@ -11,15 +11,18 @@ export const MuiDrawer = () => {
     <div style={{padding : "30px" }}>
         <Typography variant='h4' component="h1" gutterBottom>Drawer</Typography>
         //-----------------------------------------------------------------------//
-        <IconButton size="large" edge="start" aria-label="logo" color="inherit" onClick={() =>setIsDrawerOpen(true)}>
-            <MenuIcon />
-        </IconButton>
-        {/* anchor props - which bnasically controll in which direction the sidebar opens */}
-        <Drawer anchor="left" open={isDrawerOpen} onClose={() =>setIsDrawerOpen(false) }>
-            <Box p={2} width="250px" textAlign="center" role="presentation">
-                <Typography variant="h6" component="div">Side Panel</Typography>
-            </Box>
-        </Drawer>
+        <Box>
+            <IconButton size="large" edge="start" aria-label="logo" color="inherit" onClick={() =>setIsDrawerOpen(true)}>
+                <MenuIcon />
+            </IconButton>
+            {/* anchor props - which bnasically controll in which direction the sidebar opens
+            by default tooltip is positioned to the bottom of the element */}
+            <Drawer anchor="left" open={isDrawerOpen} onClose={() =>setIsDrawerOpen(false) }>
+                <Box p={2} width="250px" textAlign="center" role="presentation">
+                    <Typography variant="h6" component="div">Side Panel</Typography>
+                </Box>
+            </Drawer>
+        </Box>
     </div>
   )
 }

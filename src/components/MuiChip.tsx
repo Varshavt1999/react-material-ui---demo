@@ -12,7 +12,7 @@ export const MuiChip = () => {
     <div style={{padding : "30px"}}>
         <Typography variant='h4' component="h1" gutterBottom>Chip</Typography>
         //-----------------------------------------------------------------------//
-        <Stack direction="row" spacing={2}>
+        <Stack direction="row" spacing={2} sx={{marginTop : "40px"}}>
             {/* invoke chip compoenent with label prop */}
             <Chip label="chip" color="primary"/>       
             <Chip label="chip" color="primary" size="small"/>   
