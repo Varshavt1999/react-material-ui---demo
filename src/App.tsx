@@ -8,6 +8,7 @@ import { MuiCard } from './components/MuiCard';
 import { MuiCheckBox } from './components/MuiCheckBox';
 import { MuiGrid } from './components/MuiGrid';
 import { MuiImageList } from './components/MuiImageList';
+import { MuiLink } from './components/MuiLink';
 import { MuiMenu } from './components/MuiMenu';
 import { MuiNavBar } from './components/MuiNavBar';
 import { MuiPaper } from './components/MuiPaper';
@@ -65,6 +66,8 @@ function App() {
       <MuiNavBar />
       ===================================================================================================
       <MuiMenu/>
+      ===================================================================================================
+      <MuiLink />
     </div>
   );
 }
