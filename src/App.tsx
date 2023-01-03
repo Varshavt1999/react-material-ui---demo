@@ -25,6 +25,7 @@ import { MuiSelect } from './components/MuiSelect';
 import { MuiSpeedDial } from './components/MuiSpeedDial';
 import { MuiStack } from './components/MuiStack';
 import { MuiSwitch } from './components/MuiSwitch';
+import { MuiTable } from './components/MuiTable';
 import { MuiTextField } from './components/MuiTextField';
 import { MuiToggleButton } from './components/MuiToggleButton';
 import { MuiTooltip } from './components/MuiTooltip';
@@ -95,6 +96,8 @@ function App() {
       <MuiChip/>
       ===================================================================================================
       <MuiTooltip />
+      ===================================================================================================
+      <MuiTable />
     </div>
   );
 }
