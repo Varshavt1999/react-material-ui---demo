@@ -23,6 +23,7 @@ import { MuiPaper } from './components/MuiPaper';
 import { MuiRadioButton } from './components/MuiRadioButton';
 import { MuiRating } from './components/MuiRating';
 import { MuiSelect } from './components/MuiSelect';
+import { MuiSnackBar } from './components/MuiSnackBar';
 import { MuiSpeedDial } from './components/MuiSpeedDial';
 import { MuiStack } from './components/MuiStack';
 import { MuiSwitch } from './components/MuiSwitch';
@@ -101,6 +102,8 @@ function App() {
       <MuiTable />
       ===================================================================================================
       <MuiAlert />
+      ===================================================================================================
+      <MuiSnackBar />
     </div>
   );
 }
