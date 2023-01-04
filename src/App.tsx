@@ -12,6 +12,7 @@ import { MuiButtonGroup } from './components/MuiButtonGroup';
 import { MuiCard } from './components/MuiCard';
 import { MuiCheckBox } from './components/MuiCheckBox';
 import { MuiChip } from './components/MuiChip';
+import { MuiDialog } from './components/MuiDialog';
 import { MuiDrawer } from './components/MuiDrawer';
 import { MuiGrid } from './components/MuiGrid';
 import { MuiImageList } from './components/MuiImageList';
@@ -104,6 +105,8 @@ function App() {
       <MuiAlert />
       ===================================================================================================
       <MuiSnackBar />
+      ===================================================================================================
+      <MuiDialog />
     </div>
   );
 }
