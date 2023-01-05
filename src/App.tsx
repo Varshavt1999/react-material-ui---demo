@@ -18,6 +18,7 @@ import { MuiGrid } from './components/MuiGrid';
 import { MuiImageList } from './components/MuiImageList';
 import { MuiLink } from './components/MuiLink';
 import { MuiList } from './components/MuiList';
+import { MuiLoadingButton } from './components/MuiLoadingButton';
 import { MuiMenu } from './components/MuiMenu';
 import { MuiNavBar } from './components/MuiNavBar';
 import { MuiPaper } from './components/MuiPaper';
@@ -113,6 +114,8 @@ function App() {
       <MuiProgress/>
       ===================================================================================================
       <MuiSkelton/>
+      ===================================================================================================
+      <MuiLoadingButton />
     </div>
   );
 }
